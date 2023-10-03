@@ -1,0 +1,9 @@
+python tracker.py 127.0.0.1:6771
+
+python peer.py share file.txt 127.0.0.1:6771 127.0.0.1:52611
+
+python peer.py get file.txt 127.0.0.1:6771 127.0.0.1:52612
+
+requests logs
+logs request
+>file_logs>file.txt
